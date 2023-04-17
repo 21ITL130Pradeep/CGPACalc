@@ -1,0 +1,300 @@
+<html>
+    <head>
+    <title>EX4_GPA</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>  <ul>
+        <div id="navbar" class="navv" >
+        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///8AAAAEBAT8/PwICAj5+fn09PTn5+f39/fr6+vt7e3x8fHi4uILCwvS0tLf39+9vb3Z2dmysrLLy8u5ublCQkLCwsJbW1t6enqnp6eTk5NqampRUVGLi4vPz88mJiY6Ojqenp4VFRUfHx9GRkZaWlpvb28sLCw0NDR/f3+ioqIYGBhLS0uOjo58fHxlZWWriiTyAAAL/ElEQVR4nO2aC3eiOhDHichbeYOColgVX7V+/293ZyYB0drbbeve3XvO/M5uSyOETDLznwmoaQzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzD/A4czRj1/jSsPzaSPl7+27o2THWL33aH76OPPj/nizhP7/HPERl/egQf4gZRZLnfu3ak068IHDPqe6W5+DuCUQviJhOKbFqik37BrcAIr5uZHP78S6zq8JslmTYYDAfjIR02jqZ/qQ8b/o/8xTHPxOvvGeU3UGqSZGQcmKfWcDAcD8TLr/RgR91hkl/W7fW/ZbTfJqzRpCFaKCaLIIimMyHGYK0XfHKl24VbPgoaNG2IHQ1F2bZbC8hE0eOr/yvCF1o+9UNFzxSGOhDujSI+cNnrAgYxeflyLYbgB0NxjWD/l0YRfS0gvoBT47zD2OpXMFGcZetUDMBL53en0k/34VAsd5adttUiHoN1Z3CBWGul5ntD/6acv8NboWMJsWmSBBYRncvwfK0Bo8dC3DiX/vDwrlaxcSEvmgU/u9McW3ts5m9btR6BlIUG9IYMvMjmBoJwPBZF/1Tz6rC62R3mLyLsneTMoRORasZeCGW6buh4BP9NCGqMax3aqDNsi9o2wj9OX+tdNq/iBG/5cwMLTHwRdR+ggTWNyoNQGl8dVpPuaYXFNNvMm2ShGlGFJ9DBsddhiY6ONW7WBfSCLg/n0h+sZLXZ+TIy87l/bQOL0q3osVtoPy6L9DfoSK2AhQaudWX2AF20UhbqTng8r1+u9266HmhIA7gqkX+n2MsUj87wAemwfhD1BlPRZjqbbmQHQSXqrGuT+SmAAMYbw5RPNmOBWeun9tH4Lu3xDr0rh9U0DpQnhqLyquoymw9P/YkdUEJpvXcGFw16mS/FU/aasjAM0Q/ngkY+bPOsmJfaBSO/37YtzqjnOAZwcVj0FMVv9NM63RbXpEWLAQsxSmoQe5TWat6zC525KcOJzCetAJXy0zYOPW2PZ5IGWnD1OcIipxJKqpFTE2PIlfdtvqwTLmgs+qZ3gjnY/dA+IOoKxwMODW5ub4XUmNpzJ7KKo0WbY0kd7m8NTKRT1W0nZoN/y0lbiJfd0SSnzxdQCGzi8yqMfEPzqC1KpjBncSnb/An5fojTAr0ZjkM9t/H+DAp0e8h9IUwtFmvt2hqBQTkSIyuv5WKeSiVxchhi2cnBBj+f0KG3BN88aLJewHxkWu1pUmGP0OZRFoGeodMi9kidBPa9eMGe4ycaGNPQDXuKBoLGrPMu3xZ4L7B9ocrNZam3Q92TgVcfrfDvsUYaC6spEl9zAl03fDjJx92iLo0b6Y4XQdtCtYHLrigXYVjgbSuayumvVUK/gp1QnI3gTmOBm4rttZow8F5LLb0okUiul2XSZUk4nXYuhKzjj9BTYo1gjF5cQqei3q932+ackLpC20vXVkKAuJQOUX1zzTFfab6rH+ZC61pNuCX1+JbhAmLO7z+6OFJ8NlIRCsz5nszVIIdkIAlnpMkUAwZSZMcw/i3YnRtniuTxQKnKGKLQruRh2yYquMK3yW9jUi+ImLX/hGTfMiIxodp7KG9CU0BC7SkFH4jsYPXLM+sgFUiV1yMtohNjsrYAHdzr2HpRxTzw8tps3kJoawSV9GTl6zR7S2WP6MtQ7NVUQjY/L+cW7bYQhkZjHcsUsdItin6PZFDfSzvgn6PZ/buuVDZTw8PxwUkHvAaEYyx2SqXzJdj9Oi0w5Nr4zXfv26h63BsrKWZP0Bjdwr6jSJUy4Ea4IRDzLnvISJxILUEjb/d3CfkeLEJr9UwJEnRYipc2HDXXh97f1D2lcGqO35Y9cKwstLFUOFFRI54pMdC9tSYLYT8PmajNPy74I3pkhfNZN7Q86q5S/j30OqziApwKXzNIRgWZcByDxyupiiChqPShOoY2l7L6TRsWwgNBRY1YSjF6lo26oPyAVeg46X9gQPUWyl2CVNqbB8Y7aEANmcktgSdllCZhJqBcUF3Zzk4us45mmDRq28WLVZvpS9dw1205CPfDyHaeta3yqGPaCHb7JOlfplKZVC7YgBRFrnGk1fgBFmiBPJ2qUezBG1ERSuc5ZjTCBId241Nvss8MRlshi5WuLdH0dfuAqLKfZJlCh5Af0swdzC7o5ew5JlQoqgIjR3Yo0dMWESu8VQw/5vllDFsk0iqx0UjpQX4c+WjH096oh/5W3aOLq7vt+1op7vRJu3qvVdHRWun2CXsuuwRk0lHS6oG7p6Rv6GrjiynyrKksMLeMcCxk2sjXpPTdoyuchEa7BT1/dtukL2VfmZK5J5gZSFsWKted+trc7bbtgdIIR8NNZN2dgZa/xuioUDnDkuYZ9jNO4zWl6rnbqgQmuP3dkzos1naqTYWaTtUsForO057HJd02t8vw7/dhEEIbOrA9jBzRniVdEgc1hAizRpHU4ped3GLNQEAiqswpDWn4bs3y8zQP8GK3a3P8vAgxIVpjWaPZymTnWTpqqGpjK102bX96SvggorrdGdXlrlz4XBqIi5/anhzzAEswOV80XboWa8YCU/1mtm9LM4iy0MdUn83qXlshf0Hnoy75P+WNziKZ0A70XW5Fg01ttMASsm3L0YgQLYxruU/F7dyaHlzMpcorKZT+58SHPe1wx50lp7XczQ+H1zbRPl2vKblgFJojOUM/JzhmYtAXhRZlsbnGz1rXDdDCNz3eypKqcEz8TQkybKs6KsJpaHohR69M2U+qNLDTE+3olUm7SRUHBthEDxZuHsk6T0r1FzmBbY5PNT3RFpiKVP8VbuONNoM4aOFSzfra1syLTPYQlE2bqK8le9wu0SbOI0vOISVMPC+7tgFHdHb5VEf39Qhl7jmZPh3TY/d+meLdSDTsNkq5mmShLp9+N6sMNdUM6BGr1w5cce7EKizDFeT9OfrdGafNwrYUH81keExpCX7jNgJsbi8znvZCFfY9gl6efazNc0h/QW82yQR6xDG3QNKL86qA2XGcfOEHwchyPPuz0UFnTpLk8jSpWQcZ0k97dt9hg4bgTiJzu/2TcVcq5fdvK+I4X0R9jTOtIPL9ZJHkaRrHRXFclWV1eGuaWXO5bLeXWdM0b4dDVZarY1EUcZqGSeJHURSMrhtbww0iihNde8rD7SvJGKL+JJeIquEb34eGY3kbDabpRmDLsayml3m266nh91jvN9tpVa7iEHzA9Z7/uj/DJ5E3c/Z+P2aOFmlRTZt5fXq5Hd5YDB6P+xcZDh9cv84mzbSEEuApr8WnMMjl44+8UZKuqst8eXP7uxHtdnV92c4nh2lVHZBjCY66CtOiAI9NkzzJwyQsjkVZnKsDLPtmu5+/Ltf7nViLtXhE/w6T4rNXsp9xhBWs74o028vjtya73qhdt3o32Vwm5aqMceC+H1mfutTH38AxIAFBwTQa5Xm4qs7T7SzLwOr9O4NfmvgHT/NX0MOp+8tdFKtZdjOx6/U6m02rIvfdngA5i4TqSk1rLtlmk52WYniNVrRKlw6mv5uCxxmuf5pn2J7lLnyMi3m9k+OYxt/J/Y7m1JdjiL07SbGa9LwRPO8cF3lapu4jL4FFXVkejBY3DFO8YHXzuRV9LVenVDDqDy+y9VEQxsdmv11945Giju/dw4P6WokY1NtpUUROp2cfDROfPNHBRgzB2ovf3wF8+athnrYa4x2vuvJBF+894hOsZCW/C7LeNG9xGtwJtfcvHZayKktoYrJHy+x9xVDYZN/J5o/r0SCeom11c0hC68Pe7HfZn8DqZ0912kyI14UWQkBGj8TgC1Ou671D0/xpUgxAtKdxGDxKN+b7xrvbGbRkBo5iqV58G87DKuR7X2XUn7MjJOwHQ4DJtO7Cz7w51q9T4OFOQM/xvbeW3HvCH/5OUIf/Cw7f/1aJe7U3ACVF3zTIwv8JsAe0vHf+9vEkkDtZmv7juPkv+dc85r4/gp2qFj48mfnL+T+55ff45Yrfef633xmG6eM9+f0e8xfy04csDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwH/IPSyCgcDOVo+oAAAAASUVORK5CYII=" height="50px" width="50px">&nbsp;&nbsp;&nbsp;</li>
+        <li> <a href="gpacalc.html" class="">GPA CALCULATOR</a><li> <a href="index.html" class="">CGPA CALCULATOR</a>
+           
+      </ul>
+    
+ 
+    <h1>GPA CALCULATOR</h1> 
+    
+    <div id="course-wrapper">
+      <form class="key-0">
+        <p> <label id="course-row" for="courses">Subject Code:</label> 
+         <label id="credit-row" for="credit-units">Credits :</label>
+       <label id="grade-row" for="grade">Marks: </label></p>
+          <input
+            type="text"
+            placeholder="Course Code"
+            class="courses key-0"
+            required/>
+<label for="credit-units"></label>
+          <input
+            type="number"
+            class="credit-units key-0"
+            placeholder="Credit Units"
+            value=""
+            required>
+<label for="grade"></label>
+            <input
+              type="number"
+              class="grade key-0"
+              placeholder="Marks"
+              value=""
+              required>            
+
+      </form>
+    </div>
+    
+    <div class="btn">
+      <button onclick="addCourse()">+ Add Course</button>
+      <button onclick="removeCourse()">- Remove Course</button><br>
+      <button onclick="calcCgpa()">Calculate GPA</button>
+    </div>
+    <div class="lastp">
+      <p id="cgpa-calc">Your GPA is:</p>
+    </div>
+  </div>
+
+  <script>function gradeCalc(grade, unit) {
+    if (grade === "O") {
+      return 10 * unit;
+    } else if (grade === "A+") {
+      return 9 * unit;
+    } else if (grade === "A") {
+      return 8 * unit;
+    } else if (grade === "B+") {
+      return 7 * unit;
+    } else if (grade === "B") {
+      return 6 * unit;
+    } else if (grade === "C") {
+      return 5 * unit;
+    } else if (grade === "U") {
+      return 0 * unit;
+    }
+  }
+  
+  let counter = 1;
+  
+  function addCourse() {
+    let addNew = document.createElement("form");
+    addNew.classList.add("add_new", `key-${counter}`);
+    const course_name = `
+    <form class="add_new key-${counter}">
+      <input type="text" placeholder="Course Code" class="courses key-${counter}" required>
+          <input type="number" placeholder="Credit Unit" class="credit-units key-${counter}" required>
+          <input type="number" class="grade key--${counter}" placeholder="Marks" value="" required>   
+    </form>
+    `;
+    addNew.innerHTML = course_name;
+    document.getElementById("course-wrapper").appendChild(addNew);
+    counter++;
+  }
+  
+  function removeCourse() {
+    let mainForm = document.querySelector("form.add_new");
+    mainForm.remove();
+  }
+  
+  const reports = [];
+  
+  
+  function calcCgpa() {
+    const CGPAPARAGRAPH = document.getElementById("cgpa-calc");
+    const GRADESSELECT = document.querySelectorAll("select.grade");
+    const UNIT = document.querySelectorAll("input.credit-units");
+  
+    const courseReport = {};
+  
+    const listOfGrades = [];
+    const listOfUnits = [];
+    let totalUnits = 0;
+  
+    GRADESSELECT.forEach((e) => {
+      let GRADES = e.options;
+      const selectedIndex = e.selectedIndex;
+      const selectedGrade = GRADES[selectedIndex];
+      const gradeValue = selectedGrade.text.toUpperCase();
+      listOfGrades.push(gradeValue);
+    });
+    console.log(listOfGrades);
+  
+    UNIT.forEach((e) => {
+      const unitValue = parseInt(e.value);
+      totalUnits += unitValue;
+      listOfUnits.push(unitValue);
+    });
+    console.log(listOfUnits);
+  
+    let totalEarnedUnits = 0;
+  
+    for (let i = 0; i < listOfUnits.length; i++) {
+      totalEarnedUnits += gradeCalc(listOfGrades[i], listOfUnits[i]);
+    }
+    const gpa = totalEarnedUnits / totalUnits;
+    
+    if (gpa >= 0){
+      CGPAPARAGRAPH.textContent = "Your GPA is " + gpa.toFixed(2);   
+    } else {
+      CGPAPARAGRAPH.textContent = "Please Enter Your Correct Grade and Credit Units";    
+    }
+    
+  }
+
+  </script>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+  background-image:url(https://wallpaperaccess.com/full/1772051.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+#course-row {
+  font-size: 20px;
+  font-weight: bolder; 
+  margin-left: -2%;
+}
+
+#credit-row {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 13%;
+}
+
+#grade-row {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 8%;
+}
+
+.calculator-box {
+  width: 50%;
+  height: auto;
+  border: 2px solid #3D515C;
+  margin: 100px auto;
+/*  text-align: center; */
+}
+
+
+.gpa{
+    color: #fff;
+    margin-left: 45%;
+}
+
+h1 {
+  padding: 15px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+p{
+  padding: 20px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+ 
+#course-wrapper, form {
+  color: black;
+  padding-left: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+input{
+  border: none;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+}
+select{
+  padding: 15px;
+  border: none;
+  border-radius: 7.5px;
+  width: 20%;
+/* height: 30px; */
+ color: #000;
+}
+ button {
+  width: 15%;
+  height: 40px;
+  padding: 1px;
+  margin: 5px auto;
+  margin-left: 10px; 
+  border-radius: 12px;
+}
+
+ button:hover {
+   padding: 1px;
+  margin: 5px auto;
+    border-radius: 12px;
+  color: #fff;
+  background: #000;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30;
+    overflow: auto;
+    background-color:transparent;
+    border-radius: 12px;
+  }
+  
+  li {
+    float: left;
+  }
+  body
+  {
+      background-color: #ffffff;
+  }
+  li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: left;
+      padding: 10px 10px;
+      text-decoration: none;
+      font-family:Century;
+     
+      
+    }
+li:hover
+{
+    background-color: rgb(255, 255, 255);
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+.lastp {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.lastp p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+} 
+
+
+
+
+</style>
